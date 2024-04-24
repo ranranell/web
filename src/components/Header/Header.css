@@ -1,0 +1,32 @@
+header {
+    padding: 16px 0;
+    background: #ffffff;
+    color: #000000;
+    border-bottom: 1px solid;
+    border-bottom-color:#000000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.header__nav {
+    display: flex;
+    gap: 59px;
+    font-family: 'Montserrat-Medium';
+    font-size: 15px;
+}
+
+.nav__link.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-color: #ADA4E7;
+    color: #ADA4E7;
+}

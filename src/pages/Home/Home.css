@@ -1,0 +1,48 @@
+.reviews {
+    padding: 85px 0;
+    display: flex;
+    gap: 39px;
+    flex-direction: column;
+}
+
+.reviews__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.reviews__item {
+    padding: 33px;
+    border: 1px solid black;
+}
+
+.reviews__description{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.reviews__photo{
+    display: flex;
+    gap: 26px;
+    align-items: end;
+}
+
+.reviews__title{
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+    width: 176px;
+}
+
+.reviews__subtitle{
+    font-family: 'Montserrat-Light';
+    font-size: 17px;
+    width: 482px;
+}
+
+.reviews__data{
+    font-family: 'Montserrat-Light';
+    font-size: 17px;
+    color: #7D7D7D;
+    text-align: end;
+}

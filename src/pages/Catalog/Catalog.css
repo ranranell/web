@@ -1,0 +1,52 @@
+.Catalogue__Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+    gap: 25px;
+    width: 290px;
+    height: 390px;
+    border: 1px solid black;
+}
+
+.Catalogue__Items {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.Catalogue__Img {
+    width: 240px;
+    height: 114px;
+}
+
+.Catalogue__Title {
+    font-family: 'Anton';
+    font-size: 25px;
+}
+
+.Catalogue__Price {
+    font-family: 'Anton';
+    font-size: 30px;
+}
+
+.Catalogue__Link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    height: 57px;
+    background: linear-gradient(45deg, #ADA4E7, #5165AE, #253B6C);
+}
+
+.Catalogue__Link>p{
+    color: white;
+    font-family: 'Montserrat-Bold';
+    font-size: 30px;
+}
+
+.Catalogue__Link:hover{
+    background: linear-gradient(45deg,#DEA4E7, #A2619E, #6C255C);
+}
